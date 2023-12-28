@@ -5,8 +5,8 @@
     Capture Real Life Product on Amazon
     https://www.amazon.in/Seiko-Analog-Blue-Dial-Watch-SSK003K1/dp/B0B3GJYFQX/ref=sr_1_3?pf_rd_i=2563504031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=7f19059d-3702-426d-9150-4e9084e071fb&pf_rd_r=NRK1TVNWH3MJFMEPEYRP&pf_rd_s=merchandised-search-12&qid=1702952424&refinements=p_89%3ASeiko&s=watches&sr=1-3&th=1
 """
-
 import sys
+
 class ProductDimension:
     """
         this class implement the Dimension of watch
