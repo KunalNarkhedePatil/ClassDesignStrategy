@@ -311,7 +311,7 @@ class Bag:
             raise TypeError("new_bag_colour must be in str")
         self.bag_colour=new_bag_colour
         
-    def set_bag_model_number(self,new_bag_model_number)->str:
+    def set_bag_model_number(self,new_bag_model_number)->None:
         """
             Sets the bag_model_number attribute of the calling object to @new_bag_model_number
             Before setting, TypeCheck is performed and this function returns nothing
@@ -338,7 +338,7 @@ class Bag:
             raise TypeError("new_bag_primary_material must be in str")
         self.bag_primary_material=new_bag_primary_material
         
-    def set_bag_capacity(self,new_bag_capacity):
+    def set_bag_capacity(self,new_bag_capacity)->None:
         """
             Sets the bag_capacity attribute of the calling object to @new_bag_capacity
             Before setting, TypeCheck is performed and this function returns nothing
@@ -359,7 +359,7 @@ class Bag:
             raise  ValueError("new_bag_volume_capacity_in_lt must be positive")
         self.bag_volume_capacity_in_lt=new_bag_volume_capacity_in_lt
         
-    def set_bag_warranty_desc(self,new_bag_warranty_desc)->str:
+    def set_bag_warranty_desc(self,new_bag_warranty_desc)->None:
         """
             Sets the bag_warranty_desc attribute of the calling object to @new_bag_warranty_desc
             Before setting, TypeCheck is performed and this function returns nothing
